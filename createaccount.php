@@ -73,7 +73,7 @@
 	h2
 	{
 		text-align:center;
-		text-size:25px;
+		font-size:25px;
 	}
 	</style>
 	<script>
