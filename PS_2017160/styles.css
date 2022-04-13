@@ -1,0 +1,118 @@
+/* U.G.A.U.Rajapaksha PS/2017/160*/
+body {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: white;
+}
+
+a{
+    color:  #ffffff;
+	text-decoration:none;
+	padding:10px;
+	
+}
+li{
+	list-style-type:none;
+	padding-top:10px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 12px;
+}
+
+.navbar a:hover {
+  background-color:#006600;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+/*About us*/
+.hgreen{
+	color:#00b386;
+	padding-top:10px;
+}
+.hblack{
+	color:black;
+	padding-top:10px;
+}
+.transparentbox{
+	
+	background: rgba/*(77,255,210,0.1);*/(255,255,255,0.5);
+	box-shadow: 10px 10px 5px #ccffe6;
+}
+	
+
+.transparentbox1{
+	
+	background: rgba(0,153,115,0.6);
+	text-align:center;
+	border-radius: 15px 50px;;
+	
+	
+}
+/*Contact Us*/
+.columnstyle{
+	box-shadow: 10px 10px 5px  #ccffe6;
+	text-align:center;
+	border-radius: 10px ;
+	padding:25px;
+	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top:3px;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formbutton{
+	
+	background-color: #006622;
+	color:white;
+	border-radius: 4px;
+	margin-top:7px;
+	float:right;
+}
+iframe {
+    width: 100%;
+    height: 350px;
+
+}
+
+/*icon*/
+.greenicon{
+    color: green;
+	text-decoration:none;
+	padding:8px;
+	font-size:28px;
+	margin-top:45px;
+}
